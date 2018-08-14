@@ -1,0 +1,23 @@
+{
+  "name": "POC_trafficviolation",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-packager": "^9.0.1",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "electron-is-dev": "^0.3.0",
+    "electron-reload": "^1.2.2",
+    "zerorpc": "git+https://github.com/fyears/zerorpc-node.git"
+  }
+}
